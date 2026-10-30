@@ -1,0 +1,26 @@
+@model Venue
+@{ ViewData["Title"] = Model.Id == 0 ? "Add venue" : "Edit venue"; }
+
+<h2>@ViewData["Title"]</h2>
+<form method="post" class="form">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="err-text"></div>
+    <label>Name <input asp-for="Name" /></label>
+    <span asp-validation-for="Name" class="err-text"></span>
+    <label>Description <textarea asp-for="Description" rows="3"></textarea></label>
+    <label>Address <input asp-for="Address" /></label>
+    <span asp-validation-for="Address" class="err-text"></span>
+    <label>Capacity <input asp-for="Capacity" type="number" /></label>
+    <span asp-validation-for="Capacity" class="err-text"></span>
+    <label>Price (VND) <input asp-for="Price" type="number" step="1000" /></label>
+    <span asp-validation-for="Price" class="err-text"></span>
+    <label>Status
+        <select asp-for="Status">
+            <option value="AVAILABLE">AVAILABLE</option>
+            <option value="MAINTENANCE">MAINTENANCE</option>
+        </select>
+    </label>
+    <label>Image URL <input asp-for="ImageUrl" /></label>
+    <button class="btn">Save</button>
+    <a class="btn gray" asp-action="Manage">Cancel</a>
+</form>

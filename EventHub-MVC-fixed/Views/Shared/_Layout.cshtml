@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - EventHub</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+<header class="nav">
+    <a class="brand" asp-controller="Home" asp-action="Index">EventHub</a>
+    <nav>
+        <a asp-controller="Venues" asp-action="Index">Venues</a>
+        @if (User.Identity?.IsAuthenticated == true)
+        {
+            <a asp-controller="Bookings" asp-action="Index">@(User.IsInRole(Roles.Client) ? "My bookings" : "Bookings")</a>
+            @if (User.IsInRole(Roles.Admin) || User.IsInRole(Roles.Coordinator))
+            {
+                <a asp-controller="Venues" asp-action="Manage">Manage venues</a>
+                <a asp-controller="Coordinator" asp-action="Index">Review bookings</a>
+            }
+            @if (User.IsInRole(Roles.Admin))
+            {
+                <a asp-controller="Admin" asp-action="Dashboard">Dashboard</a>
+                <a asp-controller="Admin" asp-action="Users">Users</a>
+            }
+            <span class="who">@User.Identity.Name (@User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value)</span>
+            <form asp-controller="Account" asp-action="Logout" method="post" class="inline">
+                @Html.AntiForgeryToken()
+                <button class="link">Logout</button>
+            </form>
+        }
+        else
+        {
+            <a asp-controller="Account" asp-action="Login">Login</a>
+            <a asp-controller="Account" asp-action="Register">Register</a>
+        }
+    </nav>
+</header>
+
+<main>
+    @if (TempData["Success"] != null) { <div class="alert ok">@TempData["Success"]</div> }
+    @if (TempData["Error"] != null) { <div class="alert err">@TempData["Error"]</div> }
+    @RenderBody()
+</main>
+@* Allow pages to inject page-specific scripts *@
+@RenderSection("Scripts", required: false)
+</body>
+</html>

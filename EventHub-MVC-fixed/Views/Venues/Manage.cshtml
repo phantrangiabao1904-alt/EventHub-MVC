@@ -1,0 +1,70 @@
+@model List<Venue>
+@{ ViewData["Title"] = "Manage Venues"; }
+
+<section class="page-header">
+	<div class="container">
+		<p class="section-label">Venue management</p>
+		<h1>Manage Venues</h1>
+		<p>Add new venues, update details, and control availability.</p>
+	</div>
+</section>
+
+<section class="section dash-section">
+	<div class="container">
+
+		<div class="card">
+			<div class="card-toolbar" style="display:flex; justify-content:space-between; align-items:center;">
+				<h2>All Venues</h2>
+				<div class="toolbar-filters" style="display:flex; gap:8px; align-items:center;">
+					<form method="get" asp-action="Manage" class="inline">
+						<input type="text" name="search" placeholder="Search venue name..." value="@ViewData["Search"]" />
+						<button class="btn btn-sm">Search</button>
+					</form>
+					<a class="btn btn-primary btn-sm" asp-action="Create">+ Add Venue</a>
+				</div>
+			</div>
+
+			<div class="table-wrap">
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th>Venue</th>
+							<th>Address</th>
+							<th>Capacity</th>
+							<th>Price</th>
+							<th>Status</th>
+							<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						@if (!Model.Any())
+						{
+							<tr><td colspan="6" style="text-align:center; padding:30px; color:var(--muted);">No venues found.</td></tr>
+						}
+						else
+						{
+							foreach (var v in Model)
+							{
+								<tr>
+									<td style="font-weight:600;">@v.Name</td>
+									<td>@v.Address</td>
+									<td>@v.Capacity</td>
+									<td>@v.Price.ToString("N0") VND</td>
+									<td>@v.Status</td>
+									<td>
+										<a class="btn btn-sm" asp-action="Edit" asp-route-id="@v.Id">Edit</a>
+										<form asp-action="Delete" asp-route-id="@v.Id" method="post" style="display:inline-block; margin-left:6px;" onsubmit="return confirm('Delete this venue?');">
+											@Html.AntiForgeryToken()
+											<button class="btn btn-sm" style="background:#dc2626; color:white; border:none;">Delete</button>
+										</form>
+									</td>
+								</tr>
+							}
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+	</div>
+</section>

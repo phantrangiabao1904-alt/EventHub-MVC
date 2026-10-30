@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>EventHub</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="EventHub.Data\EventHub.Data.csproj" />
+  </ItemGroup>
+
+  <!-- Project EventHub.Data nam trong thu muc nay: khong cho web project bien dich lai file cua no -->
+  <ItemGroup>
+    <Compile Remove="EventHub.Data\**" />
+    <Content Remove="EventHub.Data\**" />
+    <EmbeddedResource Remove="EventHub.Data\**" />
+    <None Remove="EventHub.Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+  </ItemGroup>
+
+</Project>

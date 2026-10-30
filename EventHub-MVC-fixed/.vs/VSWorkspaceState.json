@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\database",
+    "\\EventHub.Data",
+    "\\EventHub.Data\\bin",
+    "\\Views",
+    "\\Views\\Bookings",
+    "\\Views\\Coordinator",
+    "\\Views\\Home",
+    "\\Views\\Shared",
+    "\\Views\\Venues"
+  ],
+  "SelectedNode": "\\database\\eventhub.sql",
+  "PreviewInSolutionExplorer": false
+}

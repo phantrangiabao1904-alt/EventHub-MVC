@@ -1,0 +1,81 @@
+@model List<EventHub.Models.Booking>
+@{ ViewData["Title"] = "Coordinator Dashboard"; }
+
+<section class="page-header">
+	<div class="container">
+		<p class="section-label">Coordinator dashboard</p>
+		<h1>Manage Bookings</h1>
+		<p>Review, confirm and track every booking request across all venues.</p>
+	</div>
+</section>
+
+<section class="section dash-section">
+	<div class="container">
+		<div class="card">
+			<div class="card-toolbar">
+				<h2>All Bookings</h2>
+				<div class="toolbar-filters">
+					<form method="get" asp-action="Index" class="inline" style="display:flex; gap:8px; align-items:center;">
+						<input type="text" name="search" placeholder="Search booking, venue, client..." value="@ViewData["Search"]" />
+						<select name="status">
+							<option value="">All statuses</option>
+							@foreach (var s in EventHub.Models.BookingStatus.All)
+							{
+								<option value="@s" selected="@(s == (string)ViewData["Status"])">@s</option>
+							}
+						</select>
+						<button class="btn btn-sm">Filter</button>
+					</form>
+				</div>
+			</div>
+
+			<div class="table-wrap">
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th>Booking</th>
+							<th>Venue</th>
+							<th>Client</th>
+							<th>Date &amp; Time</th>
+							<th>Guests</th>
+							<th>Status</th>
+							<th>Update</th>
+						</tr>
+					</thead>
+					<tbody>
+						@if (!Model.Any())
+						{
+							<tr><td colspan="7" style="text-align:center; padding:30px; color:var(--muted);">No bookings found.</td></tr>
+						}
+						else
+						{
+							foreach (var b in Model)
+							{
+								<tr>
+									<td>#@b.Id</td>
+									<td>@(!string.IsNullOrEmpty(b.VenueName) ? b.VenueName : ("Venue #" + b.VenueId))</td>
+									<td>@(!string.IsNullOrEmpty(b.UserName) ? b.UserName : ("User #" + b.UserId))</td>
+									<td>@b.EventDate.ToString("yyyy-MM-dd") <br /> @b.StartTime.ToString(@"hh\:mm") - @b.EndTime.ToString(@"hh\:mm")</td>
+									<td>@b.GuestCount</td>
+									<td><span class="badge @b.Status">@b.Status</span></td>
+									<td>
+										<form asp-controller="Bookings" asp-action="SetStatus" asp-route-id="@b.Id" method="post" style="display:inline-block; margin-right:4px;">
+											@Html.AntiForgeryToken()
+											<input type="hidden" name="status" value="CONFIRMED" />
+											<button class="btn btn-sm" style="background:#16a34a; color:white; border:none; padding:4px 8px;">Confirm</button>
+										</form>
+										<form asp-controller="Bookings" asp-action="SetStatus" asp-route-id="@b.Id" method="post" style="display:inline-block;">
+											@Html.AntiForgeryToken()
+											<input type="hidden" name="status" value="CANCELLED" />
+											<button class="btn btn-sm" style="background:#dc2626; color:white; border:none; padding:4px 8px;">Cancel</button>
+										</form>
+									</td>
+								</tr>
+							}
+						}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>

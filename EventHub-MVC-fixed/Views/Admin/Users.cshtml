@@ -1,0 +1,44 @@
+@model List<User>
+@{ ViewData["Title"] = "Users"; }
+@{ var me = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value; }
+
+<h2>Users</h2>
+<table>
+    <tr><th>#</th><th>Name</th><th>Email</th><th>Role</th><th></th></tr>
+    @foreach (var u in Model)
+    {
+        <tr>
+            <td>@u.Id</td>
+            <td>@u.Name</td>
+            <td>@u.Email</td>
+            <td>
+                @if (u.Id.ToString() == me)
+                {
+                    <span>@u.Role (you)</span>
+                }
+                else
+                {
+                    <form asp-action="SetRole" asp-route-id="@u.Id" method="post" class="inline">
+                        @Html.AntiForgeryToken()
+                        <select name="role" onchange="this.form.submit()">
+                            @foreach (var r in Roles.All)
+                            {
+                                <option value="@r" selected="@(r == u.Role)">@r</option>
+                            }
+                        </select>
+                    </form>
+                }
+            </td>
+            <td class="actions">
+                @if (u.Id.ToString() != me)
+                {
+                    <form asp-action="DeleteUser" asp-route-id="@u.Id" method="post" class="inline"
+                          onsubmit="return confirm('Delete this user?');">
+                        @Html.AntiForgeryToken()
+                        <button class="link danger">Delete</button>
+                    </form>
+                }
+            </td>
+        </tr>
+    }
+</table>

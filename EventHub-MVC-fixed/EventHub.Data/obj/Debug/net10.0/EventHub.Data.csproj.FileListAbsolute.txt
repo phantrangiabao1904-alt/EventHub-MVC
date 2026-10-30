@@ -1,0 +1,25 @@
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\bin\Debug\net10.0\EventHub.Data.deps.json
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\bin\Debug\net10.0\EventHub.Data.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\bin\Debug\net10.0\EventHub.Data.pdb
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\EventHub.Data.csproj.AssemblyReference.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\EventHub.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\EventHub.Data.AssemblyInfoInputs.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\EventHub.Data.AssemblyInfo.cs
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\EventHub.Data.csproj.CoreCompileInputs.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\EventHub.Data.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\refint\EventHub.Data.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\EventHub.Data.pdb
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\ref\EventHub.Data.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\EventHub.Data\obj\Debug\net10.0\EventHub.840604B1.Up2Date
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\bin\Debug\net10.0\EventHub.Data.deps.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\bin\Debug\net10.0\EventHub.Data.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\bin\Debug\net10.0\EventHub.Data.pdb
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\EventHub.Data.csproj.AssemblyReference.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\EventHub.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\EventHub.Data.AssemblyInfoInputs.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\EventHub.Data.AssemblyInfo.cs
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\EventHub.Data.csproj.CoreCompileInputs.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\EventHub.Data.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\refint\EventHub.Data.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\EventHub.Data.pdb
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\EventHub.Data\obj\Debug\net10.0\ref\EventHub.Data.dll

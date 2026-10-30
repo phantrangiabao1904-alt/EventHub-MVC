@@ -1,0 +1,84 @@
+@model BookingCreateVm
+@{ ViewData["Title"] = "Book Venue"; }
+
+<div class="section">
+    <div class="card" style="max-width:900px; margin:0 auto;">
+        <div class="section-header" style="margin-bottom:16px;">
+            <div class="section-label">Reservation</div>
+            <h2>Book: @Model.VenueName</h2>
+            <p>Fill in the details below to secure your event space.</p>
+        </div>
+
+        <div id="venueSummary" style="display:flex; gap:16px; align-items:center; margin-bottom:16px;">
+            <div id="venueThumb" style="width:140px; height:100px; border-radius:8px; background:#e2e8f0; background-size:cover; background-position:center; flex-shrink:0;"></div>
+            <div>
+                <h3 style="margin:0 0 6px 0;">@Model.VenueName</h3>
+                <p style="margin:0 0 6px 0; color:var(--muted);">Maximum @Model.VenueCapacity guests</p>
+            </div>
+        </div>
+
+        <div>
+            <form asp-action="Create" method="post" class="form">
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="VenueId" />
+                <div asp-validation-summary="ModelOnly" class="err-text"></div>
+
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                    <div class="form-group">
+                        <label asp-for="EventDate">Event date</label>
+                        <input asp-for="EventDate" type="date" class="form-control" />
+                        <span asp-validation-for="EventDate" class="err-text"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="GuestCount">Guests</label>
+                        <input asp-for="GuestCount" type="number" min="1" max="@Model.VenueCapacity" class="form-control" />
+                        <span asp-validation-for="GuestCount" class="err-text"></span>
+                    </div>
+                </div>
+
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;">
+                    <div class="form-group">
+                        <label asp-for="StartTime">Start time</label>
+                        <input asp-for="StartTime" type="time" class="form-control" />
+                        <span asp-validation-for="StartTime" class="err-text"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="EndTime">End time</label>
+                        <input asp-for="EndTime" type="time" class="form-control" />
+                        <span asp-validation-for="EndTime" class="err-text"></span>
+                    </div>
+                </div>
+
+                <div class="form-group" style="margin-top:12px;">
+                    <label asp-for="Notes">Special Notes / Requirements</label>
+                    <textarea asp-for="Notes" rows="3" class="form-control"></textarea>
+                    <span asp-validation-for="Notes" class="err-text"></span>
+                </div>
+
+                <div style="margin-top:16px; display:flex; gap:8px;">
+                    <button type="submit" class="btn btn-primary">Confirm Booking Request</button>
+                    <a class="btn gray" asp-controller="Venues" asp-action="Details" asp-route-id="@Model.VenueId">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Set default values and min date using client-side enhancement
+        (function () {
+            const dateInput = document.querySelector('input[name="EventDate"]');
+            if (dateInput) {
+                const today = new Date().toISOString().split('T')[0];
+                if (!dateInput.value) dateInput.value = today;
+                dateInput.min = today;
+            }
+            // Optionally set default times
+            const start = document.querySelector('input[name="StartTime"]');
+            const end = document.querySelector('input[name="EndTime"]');
+            if (start && !start.value) start.value = '09:00';
+            if (end && !end.value) end.value = '17:00';
+        })();
+    </script>
+}

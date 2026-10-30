@@ -1,0 +1,136 @@
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\EventHub.exe
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\EventHub.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\EventHub.Data.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\bin\Debug\net10.0\EventHub.Data.pdb
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.csproj.AssemblyReference.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.AssemblyInfoInputs.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.AssemblyInfo.cs
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.csproj.CoreCompileInputs.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.RazorAssemblyInfo.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.RazorAssemblyInfo.cs
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\scopedcss\bundle\EventHub.styles.css
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\compressed\rq31ibuj6d-{0}-ynkt7rh9ua-ynkt7rh9ua.gz
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\refint\EventHub.dll
+C:\Users\nvnan\OneDrive - University of Economics and Finance - UEF\Máy tính\EventHub-MVC-fixed\EventHub-MVC\obj\Debug\net10.0\EventHub.pdb
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\appsettings.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.staticwebassets.runtime.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.staticwebassets.endpoints.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.exe
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.deps.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.runtimeconfig.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.pdb
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Azure.Core.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Azure.Identity.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\System.ClientModel.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\System.Memory.Data.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.Data.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\bin\Debug\net10.0\EventHub.Data.pdb
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.csproj.AssemblyReference.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.GeneratedMSBuildEditorConfig.editorconfig
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.AssemblyInfoInputs.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.AssemblyInfo.cs
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.csproj.CoreCompileInputs.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.MvcApplicationPartsAssemblyInfo.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.RazorAssemblyInfo.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.RazorAssemblyInfo.cs
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\scopedcss\bundle\EventHub.styles.css
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\compressed\rq31ibuj6d-{0}-ynkt7rh9ua-ynkt7rh9ua.gz
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\staticwebassets.build.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\staticwebassets.development.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\swae.build.ex.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.csproj.Up2Date
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\refint\EventHub.dll
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.pdb
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\EventHub.genruntimeconfig.cache
+D:\EventHub-MVC-fixed\EventHub-MVC-fixed\obj\Debug\net10.0\ref\EventHub.dll

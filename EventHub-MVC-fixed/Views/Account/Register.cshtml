@@ -1,0 +1,47 @@
+@model RegisterVm
+@{ ViewData["Title"] = "Register"; }
+
+<div class="section">
+    <div class="container" style="max-width:480px; margin:0 auto;">
+        <div class="card">
+            <div class="section-header center" style="margin-bottom:16px;">
+                <div class="section-label">Get Started</div>
+                <h2>Create an Account</h2>
+            </div>
+
+            <div id="registerAlert" class="alert alert-error" style="display:none;"></div>
+
+            <form asp-action="Register" method="post" class="form">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly" class="err-text"></div>
+
+                <div class="form-group">
+                    <label asp-for="Name">Full Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="e.g. John Doe" />
+                    <span asp-validation-for="Name" class="err-text"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Email">Email Address</label>
+                    <input asp-for="Email" class="form-control" placeholder="e.g. john@client.com" />
+                    <span asp-validation-for="Email" class="err-text"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Password">Password</label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="err-text"></span>
+                </div>
+
+                <div style="margin-top:16px;">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </form>
+
+            <div style="text-align:center; margin-top:12px; font-size:14px; color:var(--muted);">
+                Already have an account? <a asp-action="Login" class="link-gold">Login here</a>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,21 @@
+@model List<Venue>
+@{ ViewData["Title"] = "Home"; }
+
+<section class="hero">
+    <h1>Find the perfect venue for your event</h1>
+    <p>Weddings, conferences, workshops and more.</p>
+    <a class="btn" asp-controller="Venues" asp-action="Index">Browse venues</a>
+</section>
+
+<h2>Popular venues</h2>
+<div class="cards">
+    @foreach (var v in Model)
+    {
+        <div class="card">
+            <h3>@v.Name</h3>
+            <p>@v.Address</p>
+            <p>Up to @v.Capacity guests - @v.Price.ToString("N0") VND</p>
+            <a class="btn small" asp-controller="Venues" asp-action="Details" asp-route-id="@v.Id">Details</a>
+        </div>
+    }
+</div>

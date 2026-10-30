@@ -1,0 +1,66 @@
+@model Venue
+@{ ViewData["Title"] = Model.Name; }
+
+<section class="breadcrumb">
+    <div class="container">
+        <a asp-action="Index" class="link-gold">← Back to Venues</a>
+    </div>
+</section>
+
+<section class="section detail-section">
+    <div class="container">
+        <div class="detail-layout">
+            <div class="gallery">
+                <div class="gallery-main">
+                    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        <img id="mainImage" src="@Model.ImageUrl" alt="@Model.Name" style="max-width:100%; border-radius:8px;" />
+                    }
+                </div>
+                <div class="gallery-thumbs" id="gallery">
+                    @* If you have multiple images, render thumbs here *@
+                </div>
+            </div>
+
+            <div class="detail-info">
+                <div class="detail-tags">
+                    <span class="venue-type">Venue</span>
+                    <span id="venueStatus">@Model.Status</span>
+                </div>
+
+                <h1>@Model.Name</h1>
+                <p class="detail-desc">@Model.Description</p>
+
+                <div class="fact-grid">
+                    <div class="fact">
+                        <span class="fact-label">Capacity</span>
+                        <strong id="venueCapacity">@Model.Capacity</strong>
+                    </div>
+                    <div class="fact">
+                        <span class="fact-label">Rental rate / event</span>
+                        <strong id="venuePrice">@Model.Price.ToString("N0") VND</strong>
+                    </div>
+                </div>
+
+                <div id="bookAction" style="margin-top:12px;">
+                    @if (Model.Status == "AVAILABLE")
+                    {
+                        if (User.IsInRole(Roles.Client))
+                        {
+                            <a class="btn btn-primary" asp-controller="Bookings" asp-action="Create" asp-route-venueId="@Model.Id">Book this venue</a>
+                        }
+                        else if (User.Identity?.IsAuthenticated != true)
+                        {
+                            <a class="btn" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Url.Action("Create", "Bookings", new { venueId = Model.Id })">Login to book</a>
+                        }
+                    }
+                    else
+                    {
+                        <span class="err-text">This venue is under maintenance.</span>
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
